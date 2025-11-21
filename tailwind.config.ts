@@ -20,14 +20,17 @@ const config: Config = {
         ring: 'hsl(var(--ring))',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
+
+        // Colores principales de datahora
         primary: {
-          DEFAULT: 'hsl(var(--primary))',
-          foreground: 'hsl(var(--primary-foreground))',
+          DEFAULT: '#1565C0', // Azul datahora
+          foreground: '#FFFFFF',
         },
         secondary: {
-          DEFAULT: 'hsl(var(--secondary))',
-          foreground: 'hsl(var(--secondary-foreground))',
+          DEFAULT: '#FF6B00', // Naranja datahora
+          foreground: '#FFFFFF',
         },
+
         destructive: {
           DEFAULT: 'hsl(var(--destructive))',
           foreground: 'hsl(var(--destructive-foreground))',
@@ -48,6 +51,12 @@ const config: Config = {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
         },
+
+        // Paleta específica de marca (alias opcionales)
+        brand: {
+          blue: '#1565C0',
+          orange: '#FF6B00',
+        },
       },
       borderRadius: {
         lg: `var(--radius)`,
@@ -55,8 +64,16 @@ const config: Config = {
         sm: 'calc(var(--radius) - 4px)',
       },
       fontFamily: {
+        // UI general de la app
         sans: ['var(--font-montserrat)', ...fontFamily.sans],
-        alt: ['var(--font-montserrat-alternates)'],
+        // Variante alternativa para secciones específicas
+        alt: ['var(--font-montserrat-alternates)', ...fontFamily.sans],
+        // Fuente para el logotipo / palabra datahora
+        logo: [
+          'var(--font-montserrat-alternates)',
+          'var(--font-montserrat)',
+          ...fontFamily.sans,
+        ],
       },
       keyframes: {
         'accordion-down': {

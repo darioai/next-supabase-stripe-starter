@@ -1,18 +1,25 @@
-import Image from 'next/image';
-import Link from 'next/link';
+// src/components/logo.tsx
 
-export function Logo() {
+export function Logo({
+  className = "",
+  size = "lg",
+}: {
+  className?: string;
+  size?: "xxs" | "xs" | "sm" | "md" | "lg" | "xl";
+}) {
+  const sizes = {
+    xxs: "text-[0.75rem]",
+    xs: "text-[0.87rem]",
+    sm: "text-xl",
+    md: "text-2xl",
+    lg: "text-3xl",
+    xl: "text-4xl",
+  };
+
   return (
-    <Link href='/' className='flex w-fit items-center gap-2'>
-      <Image
-        src='/logo.png'
-        width={40}
-        height={40}
-        priority
-        quality={100}
-        alt='UPDATE_THIS_WITH_YOUR_APP_DISPLAY_NAME logo mark'
-      />
-      <span className='font-alt text-xl text-white'>UPDATE_THIS_WITH_YOUR_APP_DISPLAY_NAME</span>
-    </Link>
+    <span className={`font-logo tracking-tight ${sizes[size]} ${className}`}>
+      <span className="font-normal text-primary">dat</span>
+      <span className="font-bold text-secondary">ahora</span>
+    </span>
   );
 }

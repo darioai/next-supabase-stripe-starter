@@ -1,13 +1,20 @@
-// MODIFICADA: SignupPage
 "use client";
 
-// src/app/(auth)/signup/page.tsx
+/**
+ * SignupPage
+ *
+ * Página de lista de espera para acceso anticipado a datahora.
+ * Muestra una oferta de lanzamiento con 50 % de descuento durante 6 meses
+ * para las primeras 50 cuentas que activen un plan de pago.
+ */
+
 import type { FormEvent } from "react";
-import { useState } from "react";
 import Link from "next/link";
+import { useState } from "react";
 
 import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
+
 
 export default function SignupPage() {
   const [submitted, setSubmitted] = useState(false);

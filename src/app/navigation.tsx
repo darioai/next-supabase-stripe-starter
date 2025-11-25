@@ -43,7 +43,7 @@ export async function AppBar() {
               asChild
               className="bg-secondary text-white hover:bg-secondary/90 px-5 py-2 rounded-full text-sm font-semibold"
             >
-              <Link href="/signup">Comenzar gratis</Link>
+              <Link href="/signup">Solicitar acceso anticipado</Link>
             </Button>
 
           )}
@@ -68,7 +68,7 @@ export async function AppBar() {
                 </>
               ) : (
                 <Button asChild className="mt-4">
-                  <Link href="/signup">Comenzar gratis</Link>
+                  <Link href="/signup">Solicitar acceso anticipado</Link>
                 </Button>
               )}
             </div>

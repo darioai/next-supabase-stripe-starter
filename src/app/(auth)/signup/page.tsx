@@ -4,13 +4,13 @@
  * SignupPage
  *
  * Página de lista de espera para acceso anticipado a datahora.
- * Muestra una oferta de lanzamiento con 50 % de descuento durante 6 meses
+ * Muestra una oferta de lanzamiento con 50 % de descuento durante 3 meses
  * para las primeras 50 cuentas que activen un plan de pago.
  */
 
-import type { FormEvent } from "react";
-import Link from "next/link";
 import { useState } from "react";
+import Link from "next/link";
+import type { FormEvent } from "react";
 
 import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";

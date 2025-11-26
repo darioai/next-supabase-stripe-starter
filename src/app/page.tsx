@@ -36,7 +36,7 @@ export default function HomePage() {
                 asChild
                 className="px-8 rounded-xl bg-secondary text-white hover:bg-secondary/90 font-semibold shadow-sm"
               >
-                <Link href="/signup">Probar gratis</Link>
+                <Link href="/signup">Solicitar acceso anticipado</Link>
               </Button>
 
 

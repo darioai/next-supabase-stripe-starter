@@ -1,3 +1,6 @@
+// 🔧 Modified function
+// src/components/footer.tsx (o ruta equivalente)
+
 import Link from "next/link";
 
 import { Logo } from "@/components/logo";
@@ -42,6 +45,11 @@ export function Footer() {
               <li>
                 <Link href="/about" className="hover:text-primary transition">
                   Sobre datahora
+                </Link>
+              </li>
+              <li>
+                <Link href="/legal/legal-notice" className="hover:text-primary transition">
+                  Aviso legal
                 </Link>
               </li>
               <li>

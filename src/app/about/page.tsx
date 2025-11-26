@@ -9,26 +9,26 @@ export default function AboutPage() {
           Sobre la herramienta
         </p>
         <h1 className="text-3xl font-semibold text-primary">
-          Qué es <Logo size="md" className="inline-block align-baseline" />
+          Qué es <Logo size="lg" className="inline-block align-baseline" />
         </h1>
         <p className="text-sm md:text-base text-neutral-600 max-w-2xl">
-          <Logo size="sm" className="inline-block align-baseline" /> es un SaaS
-          español que automatiza informes de marketing digital para agencias y
-          freelancers. Conecta GA4, Google Ads, Meta Ads y Search Console para
-          generar informes mensuales en español con resúmenes claros y acciones
-          concretas.
+          <Logo size="sm" className="inline-block align-baseline" /> es un SaaS español
+          que automatiza la generación de informes de marketing digital para agencias,
+          consultores y freelancers. Conecta de forma segura GA4, Google Ads, Meta Ads
+          y Search Console para producir informes mensuales en español con análisis claros,
+          métricas unificadas y recomendaciones accionables.
         </p>
       </header>
 
       <div className="rounded-2xl border border-dashed border-neutral-300 bg-neutral-50 p-6 text-sm text-neutral-700 space-y-3">
         <p>
-          Esta página está en construcción. La versión final incluirá más
-          detalles sobre la visión del producto, el roadmap y la empresa detrás
-          del proyecto.
+          La plataforma está diseñada para que cualquier profesional pueda ofrecer informes consistentes,
+          precisos y listos para entregar sin invertir horas en análisis manual.
         </p>
         <p>
-          De momento, sirve como página informativa provisional para la fase
-          beta y para que todos los enlaces del sitio funcionen correctamente.
+          Aquí presentamos los fundamentos del sistema, la filosofía del producto y las capacidades
+          principales que definen a <Logo size="xs" className="inline-block align-baseline" /> como una solución fiable, rápida y escalable
+          para el reporting digital.
         </p>
       </div>
     </div>

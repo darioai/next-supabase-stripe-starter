@@ -31,9 +31,12 @@ export default function LegalNoticePage() {
         </p>
         <p>
           <strong>UTA Solutions Europa, S.L.</strong><br />
-          NIF: [añadir NIF]<br />
-          Domicilio social: [añadir dirección completa]<br />
-          Email: <strong>hola@datahora.es</strong>
+          NIF: B22838684<br />
+          Domicilio social:<br />
+          PLAZA EUROPA, NUM 9<br />
+          PUERTA D<br />
+          08908 HOSPITALET DE LLOBREGAT (L&apos;) - (BARCELONA)<br />
+          Email: <strong>suscriptions@datahora.es</strong>
         </p>
 
         <h2>2. Objeto del sitio web</h2>
@@ -90,7 +93,7 @@ export default function LegalNoticePage() {
         <h2>8. Contacto</h2>
         <p>
           Para cuestiones relacionadas con este Aviso Legal, puedes escribir a:{' '}
-          <strong>hola@datahora.es</strong>.
+          <strong>suscripciones@datahora.es</strong>.
         </p>
       </div>
 

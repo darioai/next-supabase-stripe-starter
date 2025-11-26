@@ -108,7 +108,7 @@ export default function TermsPage() {
         <h2>13. Contacto</h2>
         <p>
           Para consultas relacionadas con estos Términos de Uso: <br />
-          <strong>hola@datahora.es</strong>
+          <strong>suscripciones@datahora.es</strong>
         </p>
       </div>
 

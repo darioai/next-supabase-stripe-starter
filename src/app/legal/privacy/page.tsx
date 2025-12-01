@@ -24,7 +24,7 @@ export default function PrivacyPage() {
 
         <h2>1. Responsable del tratamiento</h2>
         <p>
-          UTA Solutions Europa, S.L.<br />
+          UTA Solutions Europe, S.L.<br />
           Email de contacto: suscripciones@datahora.es
         </p>
 

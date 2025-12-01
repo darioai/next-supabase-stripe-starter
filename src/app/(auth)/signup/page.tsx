@@ -267,7 +267,7 @@ export default function SignupPage() {
               <Button
                 asChild
                 variant="outline"
-                className="rounded-xl text-xs border-neutral-300"
+                className="rounded-xl text-xs text-white border-neutral-300"
               >
                 <Link href="/demo-report">Ver informe de ejemplo</Link>
               </Button>
@@ -307,7 +307,7 @@ export default function SignupPage() {
             <Button
               asChild
               variant="outline"
-              className="rrounded-xl bg-primary text-white hover:bg-secondary/90 text-sm px-5ounded-xl text-sm border-neutral-300"
+              className="rrounded-xl bg-primary text-white hover:bg-secondary/90 text-sm px-5ounded-xl border-neutral-300"
             >
               <Link href="/">Volver al inicio</Link>
             </Button>

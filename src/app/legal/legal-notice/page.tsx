@@ -30,10 +30,10 @@ export default function LegalNoticePage() {
           <Logo size="xs" className="inline-block align-baseline" /> son propiedad de:
         </p>
         <p>
-          <strong>UTA Solutions Europa, S.L.</strong><br />
+          <strong>UTA Solutions Europe, S.L.</strong><br />
           NIF: B22838684<br />
           Domicilio social:<br />
-          PLAZA EUROPA, NUM 9<br />
+          PLAZA Europe, NUM 9<br />
           PUERTA D<br />
           08908 HOSPITALET DE LLOBREGAT (L&apos;) - (BARCELONA)<br />
           Email: <strong>suscriptions@datahora.es</strong>
@@ -56,7 +56,7 @@ export default function LegalNoticePage() {
         <h2>4. Propiedad intelectual e industrial</h2>
         <p>
           Todo el contenido del sitio web (textos, imágenes, logotipos, software,
-          diseño, estructura y código fuente) pertenece a UTA Solutions Europa, S.L.
+          diseño, estructura y código fuente) pertenece a UTA Solutions Europe, S.L.
           o a sus respectivos licenciantes.
         </p>
         <p>
@@ -66,7 +66,7 @@ export default function LegalNoticePage() {
 
         <h2>5. Responsabilidad del titular</h2>
         <p>
-          UTA Solutions Europa, S.L. no se responsabiliza de:
+          UTA Solutions Europe, S.L. no se responsabiliza de:
         </p>
         <ul>
           <li>Interrupciones del servicio causadas por proveedores externos.</li>

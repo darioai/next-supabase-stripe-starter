@@ -67,7 +67,7 @@ export default function TermsPage() {
         <h2>7. Propiedad intelectual</h2>
         <p>
           El software, diseño, textos, gráficos y demás elementos de la plataforma son propiedad de UTA Solutions
-          Europa, S.L. Queda prohibida su reproducción, distribución o modificación sin autorización.
+          Europe, S.L. Queda prohibida su reproducción, distribución o modificación sin autorización.
         </p>
 
         <h2>8. Disponibilidad del servicio</h2>

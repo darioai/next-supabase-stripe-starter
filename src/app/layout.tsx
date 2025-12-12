@@ -26,12 +26,17 @@ const montserratAlternates = Montserrat_Alternates({
   subsets: ['latin'],
 });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: 'datahora',
   description: 'Tus datos, ahora. Tus informes, listos.',
   icons: {
-    icon: '/datahora_favicon_128_x_128.png', // 128 × 128 in /public
+    icon: [
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+    ],
+    apple: '/apple-touch-icon.png',
   },
+  manifest: '/site.webmanifest',
 };
 
 export default function RootLayout({ children }: PropsWithChildren) {
